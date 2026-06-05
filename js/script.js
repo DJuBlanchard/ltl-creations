@@ -9,7 +9,7 @@ const PRODUCTS = [
     name: 'La nouvelle de Minecraft',
     price: 0.99,
     description: "Une terrible nouvelle dans l'ender",
-    image: 'https://djublanchard.github.io/assets/ltl-creations/assets/images/1.jpg',
+    image: 'https://djublanchard.github.io/ltl-creations/assets/images/1.jpg',
     category: 'Bandes dessinées'
   },
   {
@@ -17,7 +17,7 @@ const PRODUCTS = [
     name: "Sauteur : L'aventure des bleros",
     price: 0.99,
     description: 'Le premier hors série',
-    image: 'https://djublanchard.github.io/assets/ltl-creations/assets/images/2.jpg',
+    image: 'https://djublanchard.github.io/ltl-creations/assets/images/2.jpg',
     category: 'Bandes dessinées'
   },
   {
@@ -25,7 +25,7 @@ const PRODUCTS = [
     name: 'Sauteur : tome 2',
     price: 0.99,
     description: 'Le tome 2 des Sauteur',
-    image: 'https://djublanchard.github.io/assets/ltl-creations/assets/images/3.jpg',
+    image: 'https://djublanchard.github.io/ltl-creations/assets/images/3.jpg',
     category: 'Bandes dessinées'
   },
   {
@@ -33,7 +33,7 @@ const PRODUCTS = [
     name: 'Minecraft : K-Pop V-C Sauteur tome 1',
     price: 0.99,
     description: 'Le premier de tout',
-    image: 'https://djublanchard.github.io/assets/ltl-creations/assets/images/4.jpg',
+    image: 'https://djublanchard.github.io/ltl-creations/assets/images/4.jpg',
     category: 'Bandes dessinées'
   },
   {
@@ -41,7 +41,7 @@ const PRODUCTS = [
     name: 'La maison de Steve',
     price: 0.99,
     description: 'Tout est dans le titre',
-    image: 'https://djublanchard.github.io/assets/ltl-creations/assets/images/5.jpg',
+    image: 'https://djublanchard.github.io/ltl-creations/assets/images/5.jpg',
     category: 'Bandes dessinées'
   },
   {
@@ -49,7 +49,7 @@ const PRODUCTS = [
     name: 'Minecraft',
     price: 0.99,
     description: 'Le personne bonusse',
-    image: 'https://djublanchard.github.io/assets/ltl-creations/assets/images/6.jpg',
+    image: 'https://djublanchard.github.io/ltl-creations/assets/images/6.jpg',
     category: 'Bandes dessinées'
   },
   {
@@ -57,7 +57,7 @@ const PRODUCTS = [
     name: "Minecraft : L'intégrale du tome 2",
     price: 0.99,
     description: "Tome 2 jusqu'au bout",
-    image: 'https://djublanchard.github.io/assets/ltl-creations/assets/images/7.jpg',
+    image: 'https://djublanchard.github.io/ltl-creations/assets/images/7.jpg',
     category: 'Bandes dessinées'
   },
   {
@@ -65,14 +65,14 @@ const PRODUCTS = [
     name: 'Tome 2 : à suivre',
     price: 0.99,
     description: 'La suite du tome 2',
-    image: 'https://djublanchard.github.io/assets/ltl-creations/assets/images/8.jpg',
+    image: 'https://djublanchard.github.io/ltl-creations/assets/images/8.jpg',
     category: 'Bandes dessinées'
   },  {
     id: 9,
     name: 'Minecraft : tome 3',
     price: 0.99,
     description: 'Tome 3 : Minecraft',
-    image: 'https://djublanchard.github.io/assets/ltl-creations/assets/images/9.jpg',
+    image: 'https://djublanchard.github.io/ltl-creations/assets/images/9.jpg',
     category: 'Bandes dessinées'
   },
   {
@@ -80,7 +80,7 @@ const PRODUCTS = [
     name: 'Grass Block',
     price: 19.99,
     description: 'Authentic minecraft grass block replica',
-    image: 'https://djublanchard.github.io/assets/ltl-creations/assets/images/10.jpg',
+    image: 'https://djublanchard.github.io/ltl-creations/assets/images/10.jpg',
     category: 'Portable'
   },
   {
@@ -88,7 +88,7 @@ const PRODUCTS = [
     name: 'Diamond Pickaxe',
     price: 49.99,
     description: 'Legendary crafted diamond pickaxe',
-    image: 'https://djublanchard.github.io/assets/ltl-creations/assets/images/11.jpg',
+    image: 'https://djublanchard.github.io/ltl-creations/assets/images/11.jpg',
     category: 'Portable'
   },
   {
@@ -96,7 +96,7 @@ const PRODUCTS = [
     name: 'OAK Log',
     price: 14.99,
     description: 'Rustic oak wood log block',
-    image: 'https://djublanchard.github.io/assets/ltl-creations/assets/images/12.jpg',
+    image: 'https://djublanchard.github.io/ltl-creations/assets/images/12.jpg',
     category: 'Portable'
   },
   {
@@ -104,7 +104,7 @@ const PRODUCTS = [
     name: 'Stone Brick',
     price: 16.99,
     description: 'Durable stone brick collection',
-    image: 'https://djublanchard.github.io/assets/ltl-creations/assets/images/13.jpg',
+    image: 'https://djublanchard.github.io/ltl-creations/assets/images/13.jpg',
     category: 'Portable'
   },
   {
@@ -112,7 +112,7 @@ const PRODUCTS = [
     name: 'Glowstone Light',
     price: 34.99,
     description: 'Ambient glowstone lamp fixture',
-    image: 'https://djublanchard.github.io/assets/ltl-creations/assets/images/14.jpg',
+    image: 'https://djublanchard.github.io/ltl-creations/assets/images/14.jpg',
     category: 'Portable'
   },
   {
@@ -120,7 +120,7 @@ const PRODUCTS = [
     name: 'Creeper Head',
     price: 39.99,
     description: 'Collectible creeper head statue',
-    image: 'https://djublanchard.github.io/assets/ltl-creations/assets/images/15.jpg',
+    image: 'https://djublanchard.github.io/ltl-creations/assets/images/15.jpg',
     category: 'Portable'
   },
   {
@@ -128,7 +128,7 @@ const PRODUCTS = [
     name: 'Nether Portal',
     price: 59.99,
     description: 'LED-lit nether portal sculpture',
-    image: 'https://djublanchard.github.io/assets/ltl-creations/assets/images/16.jpg',
+    image: 'https://djublanchard.github.io/ltl-creations/assets/images/16.jpg',
     category: 'Portable'
   }
 ];
