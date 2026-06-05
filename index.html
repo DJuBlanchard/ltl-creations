@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LTL Creations - Des outils de génie pour les petits et les grands</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <!-- Header & Navigation -->
+  <header>
+    <nav>
+      <a href="index.html" class="logo">
+        <div class="logo-icon">
+          <img src="./assets/images/Designer.png" alt="LTL Créations Logo" style="height: 100% ; width: 100%">
+        </div>
+        <span>LTL Créations</span>
+      </a>
+      <div class="nav-icons">
+        <a href="pages/cart.html" class="cart-icon" style="font-size: x-large;">
+          🛒
+          <span class="cart-count" id="cart-count" style="display: none;">0</span>
+        </a>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-background"></div>
+    <div class="hero-content">
+      <h1>Bienvenue chez LTL Créations</h1>
+      <p class="hero-subtitle">
+        Découvrez les produits de Louis
+      </p>
+      <div class="cta-buttons">
+        <a href="pages/products.html" class="btn btn-primary">Explorez les produits</a>
+        <a href="pages/about.html" class="btn btn-secondary">Apprenez-en plus</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured Products Section -->
+  <section class="featured-section">
+    <h2 class="section-title">En vedette</h2>
+    <div class="featured-grid" id="featured-grid"></div>
+  </section>
+
+  <!-- Newsletter Section -->
+  <section class="featured-section">
+    <div style="text-align: center; padding: 3rem; background: linear-gradient(135deg, #5cb85c 0%, #48b518 100%); border-radius: 8px; color: white;">
+      <h2 style="margin-bottom: 1rem; color: white;">Joignez notre communauté de petits génies</h2>
+      <p style="margin-bottom: 2rem; font-size: 1.125rem;">Recevez des nouvelles de nos produits</p>
+      <form style="display: flex; gap: 0.5rem; max-width: 400px; margin: 0 auto;" onsubmit="event.preventDefault(); alert('Merci de vous abonner !')">
+        <input type="email" placeholder="Enter your email" required style="flex: 1; padding: 0.75rem; border: none; border-radius: 4px; font-size: 1rem;">
+        <button type="submit" class="btn" style="background-color: white; color: #5cb85c; font-weight: 600;">S'abonner</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-content">
+      <div class="footer-section">
+        <h3>About LTL</h3>
+        <ul>
+          <li><a href="pages/about.html">L'histoire de Louis</a></li>
+          <li><a href="#careers">Venez créer avec Louis</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h3>Shop</h3>
+        <ul>
+          <li><a href="pages/products.html">Tous les produits</a></li>
+          <li><a href="pages/products.html?filter=Bandes dessinées">Bandes dessinées</a></li>
+          <li><a href="pages/products.html?filter=Portable">Portable</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h3>Connect</h3>
+        <ul>
+          <li><a href="#instagram">Instagram</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 LTL Creations. Tous droits réservés. | Produits inspirés de Minecraft, par Louis</p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+  <script>
+    // Display featured products on homepage
+    document.addEventListener('DOMContentLoaded', function() {
+      displayProducts(PRODUCTS.slice(0, 6));
+    });
+  </script>
+</body>
+</html>

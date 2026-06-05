@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Boutique - LTL Créations</title>
+  <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+  <!-- Header & Navigation -->
+  <header>
+    <nav>
+      <a href="../index.html" class="logo">
+        <div class="logo-icon">⬜</div>
+        <span>LTL Créations</span>
+      </a>
+      <ul class="nav-menu">
+        <li><a href="../index.html">Accueil</a></li>
+        <li><a href="products.html">Boutique</a></li>
+        <li><a href="about.html">À propos de LTL</a></li>
+      </ul>
+      <div class="nav-icons">
+        <a href="cart.html" class="cart-icon">
+          🛒
+          <span class="cart-count" id="cart-count" style="display: none;">0</span>
+        </a>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Page Header -->
+  <section class="featured-section" style="text-align: center; padding: 3rem 1.5rem;">
+    <h1 class="section-title">Notre Collection</h1>
+    <p style="color: #6e6e73; font-size: 1.125rem; max-width: 600px; margin: 0 auto;">
+      Découvrez notre ligne complète de produits inspirés de Minecraft par Louis
+    </p>
+  </section>
+
+  <!-- Filter Section -->
+  <section class="featured-section" style="text-align: center; padding-bottom: 0;">
+    <div style="display: flex; justify-content: center; gap: 1rem; flex-wrap: wrap; margin-bottom: 3rem;">
+      <button data-filter="all" style="padding: 0.75rem 1.5rem; border: 1px solid #e5e5e7; background: white; border-radius: 4px; cursor: pointer; font-weight: 500; opacity: 1; transition: all 0.2s;">
+        Tous les produits
+      </button>
+      <button data-filter="Bandes dessinées" style="padding: 0.75rem 1.5rem; border: 1px solid #e5e5e7; background: white; border-radius: 4px; cursor: pointer; font-weight: 500; opacity: 0.6; transition: all 0.2s;">
+        Bandes dessinées  
+      </button>
+      <button data-filter="Portables" style="padding: 0.75rem 1.5rem; border: 1px solid #e5e5e7; background: white; border-radius: 4px; cursor: pointer; font-weight: 500; opacity: 0.6; transition: all 0.2s;">
+        Portables
+      </button>
+    </div>
+  </section>
+
+  <!-- Products Grid -->
+  <section class="featured-section">
+    <div class="featured-grid" id="featured-grid"></div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-content">
+      <div class="footer-section">
+        <h3>About LTL</h3>
+        <ul>
+          <li><a href="about.html">À propos de LTL</a></li>
+          <li><a href="contact.html">Nous contacter</a></li>
+          <li><a href="#careers">Venez créer avec Louis</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h3>Shop</h3>
+        <ul>
+          <li><a href="products.html">Tous les produits</a></li>
+          <li><a href="products.html?filter=Bandes dessinées">Bandes dessinées</a></li>
+          <li><a href="products.html?filter=Portable">Portables</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h3>Connect</h3>
+        <ul>
+          <li><a href="#instagram">Instagram</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 LTL Creations. Tous droits réservés.</p>
+    </div>
+  </footer>
+
+  <script src="../js/script.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      displayProducts(PRODUCTS);
+    });
+  </script>
+</body>
+</html>
