@@ -7,72 +7,72 @@ const PRODUCTS = [
   {
     id: 1,
     name: 'La nouvelle de Minecraft',
-    price: 1.99,
+    price: 0.99,
     description: "Une terrible nouvelle dans l'ender",
-    image: 'D:/Applfich/projects-2026/ltl/site/assets/images/1.jpg',
+    image: '../assets/images/1.jpg',
     category: 'Bandes dessinées'
   },
   {
     id: 2,
     name: "Sauteur : L'aventure des bleros",
-    price: 1.99,
+    price: 0.99,
     description: 'Le premier hors série',
-    image: 'D:/Applfich/projects-2026/ltl/site/assets/images/2.jpg',
+    image: '../assets/images/2.jpg',
     category: 'Bandes dessinées'
   },
   {
     id: 3,
     name: 'Sauteur : tome 2',
-    price: 1.99,
+    price: 0.99,
     description: 'Le tome 2 des Sauteur',
-    image: 'D:/Applfich/projects-2026/ltl/site/assets/images/3.jpg',
+    image: '../assets/images/3.jpg',
     category: 'Bandes dessinées'
   },
   {
     id: 4,
     name: 'Minecraft : K-Pop V-C Sauteur tome 1',
-    price: 1.99,
+    price: 0.99,
     description: 'Le premier de tout',
-    image: 'D:/Applfich/projects-2026/ltl/site/assets/images/4.jpg',
+    image: '../assets/images/4.jpg',
     category: 'Bandes dessinées'
   },
   {
     id: 5,
     name: 'La maison de Steve',
-    price: 1.99,
+    price: 0.99,
     description: 'Tout est dans le titre',
-    image: 'D:/Applfich/projects-2026/ltl/site/assets/images/5.jpg',
+    image: '../assets/images/5.jpg',
     category: 'Bandes dessinées'
   },
   {
     id: 6,
     name: 'Minecraft',
-    price: 1.99,
+    price: 0.99,
     description: 'Le personne bonusse',
-    image: 'D:/Applfich/projects-2026/ltl/site/assets/images/6.jpg',
+    image: '../assets/images/6.jpg',
     category: 'Bandes dessinées'
   },
   {
     id: 7,
     name: "Minecraft : L'intégrale du tome 2",
-    price: 1.99,
+    price: 0.99,
     description: "Tome 2 jusqu'au bout",
-    image: 'D:/Applfich/projects-2026/ltl/site/assets/images/7.jpg',
+    image: '../assets/images/7.jpg',
     category: 'Bandes dessinées'
   },
   {
     id: 8,
     name: 'Tome 2 : à suivre',
-    price: 1.99,
+    price: 0.99,
     description: 'La suite du tome 2',
-    image: 'D:/Applfich/projects-2026/ltl/site/assets/images/8.jpg',
+    image: '../assets/images/8.jpg',
     category: 'Bandes dessinées'
   },  {
     id: 9,
     name: 'Minecraft : tome 3',
-    price: 1.99,
+    price: 0.99,
     description: 'Tome 3 : Minecraft',
-    image: 'D:/Applfich/projects-2026/ltl/site/assets/images/9.jpg',
+    image: '../assets/images/9.jpg',
     category: 'Bandes dessinées'
   },
   {
@@ -80,56 +80,56 @@ const PRODUCTS = [
     name: 'Grass Block',
     price: 19.99,
     description: 'Authentic minecraft grass block replica',
-    image: 'D:/Applfich/projects-2026/ltl/site/assets/images/10.jpg',
-    category: 'block'
+    image: '../assets/images/10.jpg',
+    category: 'Portable'
   },
   {
     id: 11,
     name: 'Diamond Pickaxe',
     price: 49.99,
     description: 'Legendary crafted diamond pickaxe',
-    image: 'D:/Applfich/projects-2026/ltl/site/assets/images/11.jpg',
-    category: 'tool'
+    image: '../assets/images/11.jpg',
+    category: 'Portable'
   },
   {
     id: 12,
     name: 'OAK Log',
     price: 14.99,
     description: 'Rustic oak wood log block',
-    image: 'D:/Applfich/projects-2026/ltl/site/assets/images/12.jpg',
-    category: 'block'
+    image: '../assets/images/12.jpg',
+    category: 'Portable'
   },
   {
     id: 13,
     name: 'Stone Brick',
     price: 16.99,
     description: 'Durable stone brick collection',
-    image: 'D:/Applfich/projects-2026/ltl/site/assets/images/13.jpg',
-    category: 'block'
+    image: '../assets/images/13.jpg',
+    category: 'Portable'
   },
   {
     id: 14,
     name: 'Glowstone Light',
     price: 34.99,
     description: 'Ambient glowstone lamp fixture',
-    image: 'D:/Applfich/projects-2026/ltl/site/assets/images/14.jpg',
-    category: 'decor'
+    image: '../assets/images/14.jpg',
+    category: 'Portable'
   },
   {
     id: 15,
     name: 'Creeper Head',
     price: 39.99,
     description: 'Collectible creeper head statue',
-    image: 'D:/Applfich/projects-2026/ltl/site/assets/images/15.jpg',
-    category: 'collectible'
+    image: '../assets/images/15.jpg',
+    category: 'Portable'
   },
   {
     id: 16,
     name: 'Nether Portal',
     price: 59.99,
     description: 'LED-lit nether portal sculpture',
-    image: 'D:/Applfich/projects-2026/ltl/site/assets/images/16.jpg',
-    category: 'decor'
+    image: '../assets/images/16.jpg',
+    category: 'Portable'
   }
 ];
 
