@@ -6,9 +6,9 @@
 const PRODUCTS = [
   {
     id: 1,
-    name: 'La nouvelle de Minecraft',
+    name: 'La nouvelle BD de Minecraft',
     price: 0.99,
-    description: "Une terrible nouvelle dans l'ender",
+    description: "Nouvelle et améliorée",
     image: 'https://djublanchard.github.io/ltl-creations/assets/images/1.jpg',
     category: 'Bandes dessinées'
   },
@@ -30,9 +30,9 @@ const PRODUCTS = [
   },
   {
     id: 4,
-    name: 'Minecraft : K-Pop V-C Sauteur tome 1',
+    name: 'Minecraft : K-Pop vs Sauteur tome 1',
     price: 0.99,
-    description: 'Le premier de tout',
+    description: "Le premier d'un peu de tout",
     image: 'https://djublanchard.github.io/ltl-creations/assets/images/4.jpg',
     category: 'Bandes dessinées'
   },
@@ -48,7 +48,7 @@ const PRODUCTS = [
     id: 6,
     name: 'Minecraft',
     price: 0.99,
-    description: 'Le personne bonusse',
+    description: 'Le avec bonusse',
     image: 'https://djublanchard.github.io/ltl-creations/assets/images/6.jpg',
     category: 'Bandes dessinées'
   },
@@ -77,59 +77,59 @@ const PRODUCTS = [
   },
   {
     id: 10,
-    name: 'Grass Block',
-    price: 19.99,
-    description: 'Authentic minecraft grass block replica',
+    name: 'Minecraft + GO Pokémone : tome 4',
+    price: 0.99,
+    description: 'Oubliez ça en bas',
     image: 'https://djublanchard.github.io/ltl-creations/assets/images/10.jpg',
-    category: 'Portable'
+    category: 'Bandes dessinées'
   },
   {
     id: 11,
-    name: 'Diamond Pickaxe',
-    price: 49.99,
-    description: 'Legendary crafted diamond pickaxe',
+    name: "Minecraft + Sauteur : L'intégrale",
+    price: 0.99,
+    description: 'Tout à fait adéquat',
     image: 'https://djublanchard.github.io/ltl-creations/assets/images/11.jpg',
-    category: 'Portable'
+    category: 'Bandes dessinées'
   },
   {
     id: 12,
-    name: 'OAK Log',
-    price: 14.99,
-    description: 'Rustic oak wood log block',
+    name: 'Portable vert',
+    price: 0.49,
+    description: 'À clavier mécanique évidemment',
     image: 'https://djublanchard.github.io/ltl-creations/assets/images/12.jpg',
-    category: 'Portable'
+    category: 'Portables'
   },
   {
     id: 13,
-    name: 'Stone Brick',
-    price: 16.99,
-    description: 'Durable stone brick collection',
+    name: 'Portable mauve 4.5 pouces',
+    price: 0.49,
+    description: 'Petit, mais puissant',
     image: 'https://djublanchard.github.io/ltl-creations/assets/images/13.jpg',
-    category: 'Portable'
+    category: 'Portables'
   },
   {
     id: 14,
-    name: 'Glowstone Light',
-    price: 34.99,
-    description: 'Ambient glowstone lamp fixture',
+    name: 'Portable intégral',
+    price: 0.49,
+    description: 'Parfait pour Excel',
     image: 'https://djublanchard.github.io/ltl-creations/assets/images/14.jpg',
-    category: 'Portable'
+    category: 'Portables'
   },
   {
     id: 15,
-    name: 'Creeper Head',
-    price: 39.99,
-    description: 'Collectible creeper head statue',
+    name: 'Portable Deluxe',
+    price: 0.49,
+    description: 'Du luxe à portée de tous',
     image: 'https://djublanchard.github.io/ltl-creations/assets/images/15.jpg',
-    category: 'Portable'
+    category: 'Portables'
   },
   {
     id: 16,
-    name: 'Nether Portal',
-    price: 59.99,
-    description: 'LED-lit nether portal sculpture',
+    name: 'Portable à clavier abécédaire',
+    price: 0.49,
+    description: 'Parfait pour taptouche',
     image: 'https://djublanchard.github.io/ltl-creations/assets/images/16.jpg',
-    category: 'Portable'
+    category: 'Portables'
   }
 ];
 
