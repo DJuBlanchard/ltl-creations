@@ -38,7 +38,7 @@ const PRODUCTS = [
   },
   {
     id: 5,
-    name: 'La maison de Steve',
+    name: 'VENDU -La maison de Steve',
     price: 0.99,
     description: 'Tout est dans le titre',
     image: 'https://djublanchard.github.io/ltl-creations/assets/images/5.jpg',
@@ -46,7 +46,7 @@ const PRODUCTS = [
   },
   {
     id: 6,
-    name: 'Minecraft',
+    name: 'VENDU - Minecraft',
     price: 0.99,
     description: 'Le avec bonusse',
     image: 'https://djublanchard.github.io/ltl-creations/assets/images/6.jpg',
@@ -101,7 +101,7 @@ const PRODUCTS = [
   },
   {
     id: 13,
-    name: 'Portable mauve 4.5 pouces',
+    name: 'VENDU - Portable mauve 4.5 pouces',
     price: 0.49,
     description: 'Petit, mais puissant',
     image: 'https://djublanchard.github.io/ltl-creations/assets/images/13.jpg',
